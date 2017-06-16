@@ -24,7 +24,7 @@ s.platform     = :ios, "9.0"
 
 
 
-  s.source_files  = "PodTest", "PodTest/*.{h,m,framework}"
+  s.source_files  = "PodTest", "PodTest/PodTest/*.{h,m,framework}"
   s.exclude_files = "Classes/Exclude"
 
 
