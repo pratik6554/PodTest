@@ -22,7 +22,8 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/pratik6554/PodTest.git", :tag => "#{s.version}" }
   s.platform     = :ios, "9.0"
 
-
+s.ios.deployment_target = '9.0'
+s.ios.vendored_frameworks = 'PodTest.framework'
 
   s.source_files  = "PodTest", "PodTest/*.{h,m,framework}"
 #  s.exclude_files = "Classes/Exclude"
