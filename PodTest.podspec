@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author             = { "PratikGandhi" => "pratik6554@gmail.com" }
 
-  s.source       = { :git => "https://github.com/pratik6554/PodTest.git", :tag => "#{s.version}" }
+  s.source       = { :http => "https://github.com/pratik6554/PodTest/blob/master/PodTest.zip" }
   s.platform     = :ios, "9.0"
 
 s.ios.deployment_target = '9.0'
