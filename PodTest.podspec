@@ -20,12 +20,12 @@ Pod::Spec.new do |s|
   s.author             = { "PratikGandhi" => "pratik6554@gmail.com" }
 
   s.source       = { :git => "https://github.com/pratik6554/PodTest.git", :tag => "#{s.version}" }
-s.platform     = :ios, "9.0"
+  s.platform     = :ios, "9.0"
 
 
 
-  s.source_files  = "PodTest", "PodTest/PodTest/*.{h,m,framework}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "PodTest", "PodTest/*.{h,m,framework}"
+#  s.exclude_files = "Classes/Exclude"
 
 
 end
