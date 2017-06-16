@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
 
 
 
-  s.source_files  = "PodTest", "PodTest/**/*.{h,m,framework}"
+  s.source_files  = "PodTest", "PodTest/*.{h,m,framework}"
 #  s.exclude_files = "Classes/Exclude"
 
 
